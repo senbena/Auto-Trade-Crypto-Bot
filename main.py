@@ -11,7 +11,7 @@ if __name__ == '__main__':
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
     c_dir = os.path.dirname(__file__)
-    with open(os.path.join(c_dir, "config/secrets.txt")) as key_file:
+    with open(os.path.join(c_dir, "config/secrets.txt")) as key_file:1718160789:1718160789:AAHsMGElrUDRtU_-6xzqr5KcpmTokkNnX1k
         api_key, secret, telegram_tkn, user_id = key_file.read().splitlines()
 
     ccxt_ex = ccxt.bitfinex()
